@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.above-header{
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    color: white;
+    /* padding: 10px; */
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    background-color: floralwhite;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    color: rgb(26, 26, 26);
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 30px;
+    list-style: none;
+}
+.header-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+}
+.banner{
+    margin-top: 80px;
+    background-image: url(https://preview.colorlib.com/theme/fashe/assets/img/hero-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:calc(100vh - 80px);
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.banner .first-h1{
+    font-size: 80px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.banner .second-h1{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.banner .smaller-p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.banner a{
+    color: black;
+    background-color: white;
+    padding: 20px;
+}
+.moving-texts{
+   background-color: rgb(26, 26, 26);
+   overflow: hidden;
+   white-space: nowrap;
+   height: 40px;
+   /* display: flex;
+   gap: 40px; */
+   margin-bottom: 50px;
+}
+.moving-texts p{
+    display: inline-block;
+    /* padding-left: 100%; */
+    animation: 12s linear infinite;
+    color: white;
+}
+/* @keyframes moveText{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+} */
+.moving-textsss{
+    display: flex;
+    gap: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.shop-by-category h1{
+padding-left: 50px;
+margin-bottom: 30px;
+color: rgb(26, 26, 26);
+}
+.three-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 100px;
+}
+.first-image{
+    background-image: url(https://preview.colorlib.com/theme/fashe/assets/img/collection-clothing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: end;
+    padding: 0 15px;
+}
+.second-image{
+    background-image: url(https://preview.colorlib.com/theme/fashe/assets/img/collection-jewellery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: end;
+    padding: 0 15px;
+}
+.third-image{
+    background-image: url(https://preview.colorlib.com/theme/fashe/assets/img/collection-bags.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: end;
+    padding: 0 15px;
+}
+.first-image .inner{
+    background-color: white;
+    margin-bottom: 50px;
+    width: 100%;
+    padding: 10px;
+}
+.second-image .inner{
+    background-color: white;
+    margin-bottom: 50px;
+    width: 100%;
+    padding: 10px;
+}
+.third-image .inner{
+    background-color: white;
+    margin-bottom: 50px;
+    width: 100%;
+    padding: 10px;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+}
+/* style="display: flex;align-items: center;justify-content: space-between; */
+.just-landed{
+    padding-right: 50px;
+    padding-left: 50px;
+    color: rgb(26, 26, 26);
+}
+.just-landed p{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+#new-arrivals{
+    display: flex;
+    justify-content: space-between;
+}
+.just-landed h1{
+    margin-bottom: 30px;
+}
+#new-arrivals a{
+    margin-bottom: 20px;
+    font-size: 12px;
+    border: 1px solid rgb(26, 26, 26);
+    padding: 17px;
+}
+.eight-pictures{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.picture-one-img{
+    background-image: url(https://preview.colorlib.com/theme/fashe/assets/img/product-poncho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.picture-two-img{
+    background-image: url(https://preview.colorlib.com/theme/fashe/assets/img/product-biker-jacket.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.picture-three-img{
+    background-image: url(https://preview.colorlib.com/theme/fashe/assets/img/product-bomber.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.picture-four-img{
+    background-image: url(https://preview.colorlib.com/theme/fashe/assets/img/product-tee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.picture-five-img{
+    background-image: url(https://preview.colorlib.com/theme/fashe/assets/img/product-suit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.picture-six-img{
+    background-image: url(https://preview.colorlib.com/theme/fashe/assets/img/product-tote.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.picture-seven-img{
+    background-image: url(https://preview.colorlib.com/theme/fashe/assets/img/product-backpack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.picture-eight-img{
+    background-image: url(https://preview.colorlib.com/theme/fashe/assets/img/product-wallet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+/* .picture-one .picture-text{
+    background-color: black;
+    border: 1px solid black;
+} */
+.picture-text{
+    color: white;
+    background-color: rgb(26, 26, 26);
+    padding: 15px 100px;
+}
+.eight-pictures-fig p{
+    font-size: 16px;
+}
+.our-story{
+    background-color: rgb(242, 237, 237);
+    margin-bottom: 60px;
+}
+.two-sections{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding:90px 50px ;
+}
+.our-story-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.our-story-p-one{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.our-story-p-two{
+    border: 1px solid rgb(26, 26, 26);
+    padding: 20px;
+}
+.why-shop{
+    margin-bottom: 100px;
+    padding: 50px;
+}
+.why-shop h1{
+    margin-bottom: 50px;
+}
+.three-sections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.three-sections-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.three-sections-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.three-sections-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.journal{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 100px;
+    border-bottom: 1 px solid grey;
+}
+.journal-top{
+    display: flex;
+    justify-content: space-between;
+}
+.journal-top a{
+    margin-bottom: 20px;
+    font-size: 12px;
+    border: 1px solid rgb(26, 26, 26);
+    padding: 17px;
+}
+.journal-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.journal-images img{
+    margin-bottom: 10px;
+}
+.journal-images h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.before-footer{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 100px;
+    border-top: 1px solid rgb(208, 206, 206);
+    padding-top: 100px;
+}
+.four-sections{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.four-section-one h4{
+    margin-bottom: 20px;
+}
+.four-section-one p{
+    margin-bottom: 30px;
+}
+.four-section-one-icons i{
+    display: flex;
+    gap: 20px;
+}
+.four-section-two h4{
+    margin-bottom: 20px;
+}
+.foursection-two-links{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.four-section-three h4{
+    margin-bottom: 20px;
+}
+.foursection-three-links{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.four-section-four h4{
+    margin-bottom: 20px;
+}
+.four-section-four p{
+    margin-bottom: 20px;
+}
+.four-section-four input{
+    padding: 10px;
+}
+.four-section-four button{
+    padding: 10px;
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+footer{
+    height: 80px;
+    border-top: 1px solid rgb(208, 206, 206);
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding: 30px;
+}
+.footer a{
+    text-decoration: underline;
+}
